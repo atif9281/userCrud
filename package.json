@@ -1,0 +1,18 @@
+{
+  "name": "usercrud",
+  "version": "1.0.0",
+  "description": "The userCrud functionality enables Create, Read, Update, and Delete (CRUD) operations for managing user data in a web application. Implemented with Node.js, Express, and Prisma with PostgreSQL, it provides endpoints (POST /users, GET /users, PUT /users/:id, DELETE /users/:id) to create new users, fetch user details, update existing users, and delete users based on their unique identifiers. This setup ensures efficient, type-safe database interactions, enhancing application scalability and maintenance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Atif",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
